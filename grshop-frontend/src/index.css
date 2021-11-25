@@ -1,0 +1,47 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    float: right;
+}
+.material-icons{
+    font-size: 2.4em;
+    cursor: pointer;
+}
+.card{
+    width: 200px;
+}
+
+
+footer {
+  clear: both;
+}
+
+.Filter {
+  width: 20%;
+  background: red;
+  border: 3px solid black;
+  padding-bottom: 45%;
+  float: left;
+}
+.card .card-image .card-title{
+    color: black;
+    font-weight: 400
+}
+
+.collection .collection-item{
+    display: flex;
+}
+.collection-item.avatar .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ee6e73;
+    display: block;
+    margin-bottom: 20px;
+
+}
+.collection .collection-item img{
+    width: 150px;
+    margin-right: 25px;
+}
